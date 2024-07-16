@@ -62,13 +62,15 @@ header nav ul li a:hover {
 /* Hero section styles */
 .hero {
     background: url('images/Jordan natural beauty.jpg') no-repeat center center/cover;
+    background-size: cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-color: white;
     padding: 20px;
+    animation: fadeIn 2s ease-in-out;
 }
 
 .hero h1 {
@@ -76,6 +78,7 @@ header nav ul li a:hover {
     margin: 0 0 20px 0;
     animation: slideInDown 1s ease-in-out;
 }
+
 .btn {
     background-color: #FF7F50;
     color: white;
@@ -83,11 +86,19 @@ header nav ul li a:hover {
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.2em;
-    transition: transform 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
     animation: slideInUp 1.5s ease-in-out;
 }
+
+.btn:hover {
+    background-color: #FF6347;
+    transform: scale(1.05);
+}
+
 /* Footer styles */
 footer {
+    background: #333;
+    color: white;
     text-align: center;
     padding: 10px 0;
     position: fixed;
