@@ -77,18 +77,6 @@ header nav ul li a:hover {
     margin: 0 0 20px 0;
     animation: slideInDown 1s ease-in-out;
 }
-
-.btn {
-    background-color: #FF7F50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    transition: background-color 0.3s, transform 0.3s;
-    animation: slideInUp 1.5s ease-in-out;
-}
-
 .btn:hover {
     background-color: #FF6347;
     transform: scale(1.05);
