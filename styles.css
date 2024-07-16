@@ -4,6 +4,7 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 /* Header styles */
@@ -15,6 +16,22 @@ header {
     top: 0;
     left: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: 20px;
+    transition: color 0.3s;
+}
+
+header .logo a:hover {
+    color: #FF7F50;
 }
 
 header nav ul {
@@ -22,7 +39,7 @@ header nav ul {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding-right: 20px;
 }
 
 header nav ul li {
@@ -31,7 +48,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: red;
+    color: white;
     font-weight: bold;
     padding: 5px 10px;
     transition: background 0.3s;
@@ -44,7 +61,7 @@ header nav ul li a:hover {
 
 /* Hero section styles */
 .hero {
-    background: url('image/Jordan natural beauty.jpg');
+    background: url('images/Jordan natural beauty.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -53,9 +70,33 @@ header nav ul li a:hover {
     color: white;
     text-align: center;
     padding: 20px;
+    animation: fadeIn 2s ease-in-out;
 }
 
 .hero h1 {
     font-size: 3em;
-    margin: 0 0 20px;
+    margin: 0 0 20px 0;
+    animation: slideInDown 1s ease-in-out;
 }
+
+.btn {
+    background-color: #FF7F50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s;
+    animation: slideInUp 1.5s ease-in-out;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
