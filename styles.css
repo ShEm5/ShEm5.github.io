@@ -23,7 +23,7 @@ header {
 
 header .logo a {
     text-decoration: none;
-    color: orange;
+    color: white;
     font-weight: bold;
     font-size: 1.5em;
     padding-left: 20px;
@@ -32,6 +32,7 @@ header .logo a {
 
 header .logo a:hover {
     color: #FF7F50;
+    font-weight: bold;
 }
 
 header nav ul {
@@ -84,7 +85,7 @@ header nav ul li a:hover {
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 7px;
     font-size: 1.2em;
     transition: background-color 0.3s, transform 0.3s;
     animation: slideInUp 1.5s ease-in-out;
@@ -92,10 +93,13 @@ header nav ul li a:hover {
 
 /* Footer styles */
 footer {
+     background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    position: fixed;
     text-align: center;
     padding: 10px 0;
     position: fixed;
-    width: 100%;
+    width: 50%;
     bottom: 0;
     left: 0;
 }
