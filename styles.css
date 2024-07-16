@@ -1,38 +1,50 @@
-body{
+/* General styles */
+body, html {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
 }
 
+/* Header styles */
 header {
     background: rgba(0, 0, 0, 0.7);
-    padding: 10px 20px;
+    padding: 10px 0;
     position: fixed;
     width: 100%;
     top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
-nav ul {
+header nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul li {
-    margin-left: 20px;
+header nav ul li {
+    margin: 0 15px;
 }
 
-nav ul li a {
+header nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    padding: 5px 10px;
+    transition: background 0.3s;
 }
 
+header nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+/* Hero section styles */
 .hero {
-    background-image: url('images/Jordan natural beauty.jpg') no-repeat center center/cover;
-    background-size: cover;
-    background-position: center;
+    background: url('images/Jordan natural beauty.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -40,43 +52,25 @@ nav ul li a {
     align-items: center;
     color: white;
     text-align: center;
-    padding: 0 20px;
-    margin-top: 60px;
+    padding: 20px;
 }
 
 .hero h1 {
     font-size: 3em;
-    margin: 0;
+    margin: 0 0 20px 0;
 }
 
 .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: orange;
+    background-color: #FF7F50;
     color: white;
+    padding: 10px 20px;
     text-decoration: none;
-    margin-top: 20px;
-    font-weight: bold;
     border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .btn:hover {
-    background-color: darkorange;
-}
-
-main {
-    padding: 20px;
-    margin-top: 60px; 
-}
-
-.posts article {
-    margin-bottom: 20px;
-}
-
-.posts article h2 {
-    margin: 0;
-}
-
-.posts article p {
-    margin: 5px 0;
+    background-color: #FF6347;
+    transform: scale(1.05);
 }
