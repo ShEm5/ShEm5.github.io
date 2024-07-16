@@ -61,7 +61,7 @@ header nav ul li a:hover {
 
 /* Hero section styles */
 .hero {
-    background: url('images/Jordan natural beauty.jpg') no-repeat center center/cover;
+    background: url('image/Jordan natural beauty.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -88,10 +88,6 @@ header nav ul li a:hover {
     animation: slideInUp 1.5s ease-in-out;
 }
 
-.btn:hover {
-    background-color: #FF6347;
-    transform: scale(1.05);
-}
 
 /* Footer styles */
 footer {
