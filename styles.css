@@ -83,9 +83,9 @@ header nav ul li a:hover {
 .btn {
     background-color: #FF7F50;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     text-decoration: none;
-    border-radius: 7px;
+    border-radius: 0;
     font-size: 1.2em;
     transition: background-color 0.3s, transform 0.3s;
     animation: slideInUp 1.5s ease-in-out;
