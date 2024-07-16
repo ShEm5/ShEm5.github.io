@@ -80,13 +80,13 @@ header nav ul li a:hover {
 }
 
 .btn {
-    background-color: #FF7F50;
+      background-color: rgb(255, 127, 80);
     color: white;
+    font-size: 1.2em;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.2em;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: background-color 0.3s ease 0s, transform 0.3s ease 0s;
     animation: slideInUp 1.5s ease-in-out;
 }
 
