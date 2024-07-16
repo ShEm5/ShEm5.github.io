@@ -31,7 +31,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: white;
+    color: red;
     font-weight: bold;
     padding: 5px 10px;
     transition: background 0.3s;
@@ -44,7 +44,7 @@ header nav ul li a:hover {
 
 /* Hero section styles */
 .hero {
-    background: url('images/Jordan natural beauty.jpg') no-repeat center center/cover;
+    background: url('images/Jordan natural beauty.jpg');
     height: 100vh;
     display: flex;
     flex-direction: column;
