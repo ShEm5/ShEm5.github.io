@@ -57,20 +57,5 @@ header nav ul li a:hover {
 
 .hero h1 {
     font-size: 3em;
-    margin: 0 0 20px 0;
-}
-
-.btn {
-    background-color: #FF7F50;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-.btn:hover {
-    background-color: #FF6347;
-    transform: scale(1.05);
+    margin: 0 0 20px;
 }
