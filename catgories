@@ -20,8 +20,10 @@
     <main>
         <h1>Categories</h1>
         <ul>
-            <li><a href="category.html">catgory</a></li>
-            <li><a href="category.html">catgory</a></li>
+            <li><a href="category.html">Asia</a></li>
+            <li><a href="category.html">Europe</a></li>
+            <li><a href="category.html">Africa</a></li>
+            <li><a href="category.html">Amirca</a></li>
         </ul>
     </main>
     <script src="scripts/main.js"></script>
